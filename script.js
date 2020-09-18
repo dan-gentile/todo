@@ -65,6 +65,7 @@ function storeItems() {
 
 }
 
+//rendering the items from storage
 function render() {
     for (i = 0; i < 9; i++) {
         var itemHour = todoItems[i].hour;
