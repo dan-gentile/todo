@@ -66,7 +66,6 @@ function storeItems() {
 }
 
 function render() {
-    // todoItems = JSON.parse(localStorage.getItem('tasks'))
     for (i = 0; i < 9; i++) {
         var itemHour = todoItems[i].hour;
         var itemText = todoItems[i].text;
