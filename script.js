@@ -23,14 +23,14 @@ function colorCode() {
 // check local storage if present populates if not creates 
 function checkMe() {
     var storedData = JSON.parse(localStorage.getItem('tasks'));
-   
+
     if (storedData !== null) {
         todoItems = storedData
         render()
-    }else{
+    } else {
         createObj()
     }
-    
+
 }
 // create task objects if no object is found
 function createObj() {
@@ -44,7 +44,7 @@ function createObj() {
 
         todoItems.push(todoObj);
     })
-    
+
 }
 
 // add text content when hitting the 'saved' button
@@ -53,29 +53,28 @@ $('.btn').click(function () {
     for (i = 0; i < 9; i++) {
         if (todoItems[i].hour === $(this).parent().data("hour")) {
             todoItems[i].text = addItem;
-            
+
         }
     }
     storeItems()
 })
 
 // storing items to local storage
-function storeItems(){
+function storeItems() {
     localStorage.setItem('tasks', JSON.stringify(todoItems));
-    
+
 }
 
-function render(){
+function render() {
     // todoItems = JSON.parse(localStorage.getItem('tasks'))
-    for(i = 0; i < 9; i++){
+    for (i = 0; i < 9; i++) {
         var itemHour = todoItems[i].hour;
-        var itemText = todoItems[i].text; 
+        var itemText = todoItems[i].text;
         $("[data-hour=" + itemHour + "]").children("textarea").val(itemText)
     }
 }
-  
+
 
 // run functions on start
 checkMe()
 colorCode()
-
