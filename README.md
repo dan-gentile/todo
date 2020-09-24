@@ -1,8 +1,8 @@
 # todo-app
 ## Javascript Web App 
 
-![Contents](https://img.shields.io/github/languages/top/dan-gentile/work-day-scheduler)
-![Last-Commit](https://img.shields.io/github/last-commit/dan-gentile/work-day-scheduler)
+![Contents](https://img.shields.io/github/languages/top/dan-gentile/todo)
+![Last-Commit](https://img.shields.io/github/last-commit/dan-gentile/todo)
 
 ### Table of Contents
 
