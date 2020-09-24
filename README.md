@@ -23,7 +23,7 @@ This project was built using the following:
 - Javascript
 - Jquery 
 
-Link to page: <https://dan-gentile.github.io/work-day-scheduler/>
+Link to page: <https://dan-gentile.github.io/todo/>
 
 ### Technologies
 
