@@ -1,4 +1,4 @@
-# work-day-scheduler
+# todo-app
 ## Javascript Web App 
 
 ![Contents](https://img.shields.io/github/languages/top/dan-gentile/work-day-scheduler)
